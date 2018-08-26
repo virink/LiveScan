@@ -1,0 +1,18 @@
+{
+  "name": "存活探測",
+  "name_en": "LiveScan",
+  "main": "index.js",
+  "icon": "eye",
+  "version": "0.1",
+  "description": "探測Shell是否存活",
+  "description_en": "Scan webshell",
+  "author": {
+    "name": "Virink",
+    "email": "virink@outlook.com"
+  },
+  "isDev": true,
+  "category": "信息获取",
+  "category_en": "information",
+  "multiple": true,
+  "scripts": ["php", "asp", "aspx"]
+}
