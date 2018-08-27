@@ -135,7 +135,10 @@ class UI {
           } else {
             toastr.error(LANG['move']['error'](ret), LANG['error']);
           }
-          this.grid.clearAll();
+          // this.grid.clearAll();
+          ids.map(_ => {
+            this.grid.deleteRow(_);
+          });
           break;
         case 'stop':
           // TODO ?
