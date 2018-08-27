@@ -18,7 +18,7 @@
 1. 获取源代码
 
     ```
-    git clone https://github.com/Virink/PortScan.git
+    git clone https://github.com/Virink/LiveScan.git
     ```
 
 2. 拷贝源代码至插件目录
